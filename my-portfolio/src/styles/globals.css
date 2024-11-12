@@ -1,0 +1,47 @@
+.about {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-item h3 {
+  font-size: 1.2em;
+  color: #333;
+}
+.project-gallery {
+  padding: 50px 20px;
+}
+
+.filter-buttons button {
+  margin-right: 10px;
+}
+
+.project-card {
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 20px 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.contact-form button {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
